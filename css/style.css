@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  width: 0.8rem;
+}
+*::-webkit-scrollbar-track {
+  background: #353849;
+}
+*::-webkit-scrollbar-thumb {
+  background: #232631;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Nav */
+
+nav {
+  background-color: #111217;
+  padding: 2.5rem 2rem;
+}
+
+nav .logo {
+  color: #fff;
+  float: left;
+  font-size: 2.4rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+nav .logo a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 2.4rem;
+  margin-left: 2rem;
+}
+
+nav ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #d4d4d4;
+  text-decoration: underline;
+}
+
+/* Main */
+
+main {
+  height: 40rem;
+  background: url(../img/car1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+main .bg {
+  padding: 10rem 2rem 0;
+  background: hsla(0, 0%, 0%, 0.4);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+main .bg h1 {
+  color: #fff;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+main .bg p {
+  color: #e7e7e7;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+main .bg .btn {
+  padding: 1rem 2rem;
+  background: rgba(7, 7, 7, 0);
+  color: #fff;
+  border: none;
+  outline: none;
+  border: 0.2rem solid #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main .bg .btn:hover {
+  background: #fff;
+  color: #070707;
+}
+
+/* About */
+
+.about {
+  background: #1a202c;
+  color: #dadada;
+  font-size: 3rem;
+  font-style: italic;
+  padding: 5rem 3rem;
+}
+
+.about p {
+  font-weight: 100;
+  text-align: center;
+}
+
+.about p span {
+  font-weight: 300;
+  color: #5c6c8d;
+}
+
+/* Contact */
+
+.contact {
+  background: #202735;
+  padding: 5rem 3rem;
+}
+
+.contact form {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact form input,
+.contact form select {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  outline: none;
+  font-size: 1.5rem;
+}
+
+.contact form .btn {
+  padding: 0.5rem 1.5rem;
+  background: rgba(7, 7, 7, 0);
+  color: #fff;
+  border: none;
+  outline: none;
+  border: 0.2rem solid #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact form .btn:hover {
+  background: #fff;
+  color: #070707;
+}
+
+/* Footer */
+
+footer {
+  background: #262f3f;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+footer a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #d4d4d4;
+  text-decoration: underline;
+}
